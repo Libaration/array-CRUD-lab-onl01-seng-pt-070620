@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  myArray.push('snake')
+  myArray.push(array)
 end
 
 def add_element_to_start_of_array(array, element)
-  myArray.unshift('elephant')
+  myArray.unshift(array)
 end
 
 def remove_element_from_end_of_array(array)
@@ -23,7 +23,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  myArray.index('wolf')
+  myArray.index(array)
 end
 
 def retrieve_first_element_from_array(array)

@@ -24,8 +24,8 @@ end
 
 def retrieve_element_from_index(array, index_number)
 
-  myVar = array[index_number]
-  array.index[myVar]
+  puts array[index_number]
+
 
 end
 

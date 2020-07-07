@@ -24,7 +24,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
 
-  puts array[index_number]
+  array[index_number]
 
 
 end
